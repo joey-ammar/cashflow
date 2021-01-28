@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- the links to the file -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+    <title>Cashflow</title>
+    <script
+      src="https://kit.fontawesome.com/daf228d976.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+                ******************
+             -->
+    <!-- Header starts here -->
+    <header class="header limited">
+      <!-- navigation starts here -->
+      <nav class="navigation limited">
+        <div class="container">
+          <div class="nav-inside flex">
+            <div class="logo">
+              <a href="/">
+                <img
+                  class="logo-two"
+                  src="images/logo.png"
+                  alt="The logo of the website"
+                />
+              </a>
+            </div>
+            <div class="nav-syntax">
+              <ul class="flex">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#why">Why</a></li>
+                <li>
+                  <a href="index.html#testimonials">Testimonials</a>
+                </li>
+                <li><a href="index.html#partners">Partners</a></li>
+                <li><a href="application.html">App</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header ends here -->
+    <!-- 
+                ******************
+             -->
+
+    <!-- 
+                ******************
+             -->
+
+    <!-- app starts here -->
+    <section class="application" id="application">
+      <div class="flexApplication flex-column relative">
+        <div class="incomeApplication">
+          <div class="container">
+            <h1>Income</h1>
+            <div class="income__list"></div>
+          </div>
+        </div>
+        <div class="paymentApplication">
+          <div class="container">
+            <h1>Payments</h1>
+            <div class="expenses__list"></div>
+          </div>
+        </div>
+        <div class="liveApplication">
+          <div class="container">
+            <div class="boxTwo">
+              <div class="box-title">
+                <h1>Cashflow</h1>
+              </div>
+
+              <div class="box-process">
+                <div class="container">
+                  <h1>Check Live update</h1>
+                  <div class="incomeProcess flex">
+                    <div>
+                      <p>Income</p>
+                    </div>
+                    <div class="liveIncome">
+                      0
+                    </div>
+                  </div>
+                  <div class="paymentProcess flex">
+                    <div>
+                      <p>Payments</p>
+                    </div>
+                    <div class="livePayment">
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="calculation">
+                <div class="container">
+                  <h1>Add The values</h1>
+                  <div class="insideCalculation">
+                    <div>
+                      <input
+                        class="person"
+                        id="person"
+                        type="text"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        class="title"
+                        id="title"
+                        type="text"
+                        placeholder="Title"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        class="amount"
+                        id="amount"
+                        type="text"
+                        placeholder="Amount"
+                      />
+                    </div>
+                    <div class="flex pass">
+                      <select class="selection" name="" id="type">
+                        <option id="positive" value="inc" selected> +</option>
+                        <option id="negative" value="exp">-</option>
+                      </select>
+                      <a id="enterBtn" href="#">Enter</a>
+                      <a id="refreshing" href="#">Clear</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="final-result flex-column">
+                <div class="container">
+                  <h1 class="finalValue">0</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- app ends here -->
+    <!-- 
+                ******************
+             -->
+
+    <!-- 
+                ******************
+             -->
+
+    <!-- footer starts here ! -->
+    <footer class="footer footer-app">
+      <div class="container">
+        <div class="inside-footer flex">
+          <div>
+            <p>© 2020 Cashflow</p>
+          </div>
+
+          <div>
+            <ul class="flex">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-reddit-alien"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-medium-m"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-tumblr"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends here ! -->
+    <!-- Javascript -->
+
+    <script src="application.js"></script>
+  </body>
+</html>
