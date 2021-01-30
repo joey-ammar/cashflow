@@ -1,5 +1,9 @@
-# cashflow##
+Project Title : Project Cashflow
 
-https://cashflow.now.sh/#
+Technologies used : 1 - HTML 2 - CSS 3 - JAVASCRIPT 
 
-Website Live
+Project live: https://cashflow.now.sh
+
+Description: People can make calculations about their income and payments
+
+More in depth: - Javascript logic [ calculations ], sliders, Css animations.
