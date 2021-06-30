@@ -18,4 +18,4 @@ Navigate through the website to find the app where you can make quick calculatio
 
 JavaScript -  HTML - CSS -sliders - animation 
 
-![CASA](https://user-images.githubusercontent.com/66380080/123962382-b12eb880-d9b1-11eb-829c-f29b327eeb22.png)
+![CASH](https://user-images.githubusercontent.com/66380080/123962549-dfac9380-d9b1-11eb-944f-8499563e6157.png)
